@@ -28,11 +28,12 @@ Proxmox (host)
 Używane do:
 - dostępu z Windows / Mac
 - ręcznego wrzucania plików
+- dla archiwum zdjęć uruchomiony kosz i rsync na drugi dysk
 
 ### NFS (opcjonalnie)
 
 Używane do:
-- mountów w VM (np. Paperless)
+- mountów w VM (np. Paperless + rsync na drugi dysk)
 
 ---
 
