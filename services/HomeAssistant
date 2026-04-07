@@ -14,4 +14,3 @@ Sterowanie smart home + automatyzacje.
 
 - sterowanie głosowe działa przez Google Home
   - HomeAssistant -> Matter Bridge -> Google Home + SmartThings (Sterowanie z TV Samsung)
-- automatyzacje wymagają dopracowania (światła, TV)
