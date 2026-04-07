@@ -61,6 +61,7 @@ Lenovo M93P Tiny
 
 - lokalny + VPN
 - zdalny przez integracje (Google Home / SmartThings)
+- W przypadku karty sieciowej intel e1000 może wystąpić problem z zawieszeniem karty naprawia to skrypt https://community-scripts.org/scripts/nic-offloading-fix?id=nic-offloading-fix
 
 ---
 
