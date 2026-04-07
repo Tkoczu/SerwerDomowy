@@ -64,7 +64,7 @@ Mount z OMV:
 
 ### 2. Mail (IMAP)
 
-Paperless sprawdza skrzynkę i importuje dokumenty.
+Paperless sprawdza skrzynkę i importuje dokumenty. (Dodany warunek aby odbierać wiadomości tylko z mojego maila)
 
 ---
 
@@ -82,34 +82,3 @@ Obecnie:
 
 Zależność:
 - backup całej VM (Proxmox)
-
----
-
-## ⚠️ Problemy (REALNE)
-
-### 1. Mail import nie działa
-
-Objaw:
-- klikam "przetwarzaj" → nic się nie dzieje
-
-Co się stało:
-- mail przestał być pobierany
-
-Rozwiązanie:
-- restart Paperless
-- sprawdzenie konfiguracji maila
-
-Status:
-✔️ naprawione
-
----
-
-### 2. Brak katalogu archive
-
-Objaw:
-- błędy przy przetwarzaniu dokumentów
-
-Rozwiązanie:
-
-```bash
-mkdir /opt/paperless_data/archive
