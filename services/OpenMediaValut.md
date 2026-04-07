@@ -1,5 +1,3 @@
-# OpenMediaVault (OMV)
-
 ## 📦 Rola w systemie
 
 OMV pełni rolę warstwy storage dla całego homelaba.
@@ -88,6 +86,11 @@ OMV sam w sobie NIE robi backupu – tylko przechowuje dane.
 Backup realizowany przez:
 - Proxmox (VM backup)
 
+---
+## 📧 Powiadomienia
+Powiadomienia przychodzą na maila w przypadku
+ - logowanie do OMV
+ - Error w SMART
 ---
 
 ## ⚠️ Problemy i pułapki
