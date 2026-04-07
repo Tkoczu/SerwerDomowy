@@ -14,15 +14,15 @@ Prywatny serwer NAS + smart home + dokumenty.
 ## 🧱 Architektura
 
 - Hypervisor: Proxmox VE
-- Storage: OpenMediaVault (NAS)
 - VM:
+  - OpenMediaVault
   - Home Assistant
   - Paperless-ngx
 
 ---
 
 ## ⚙️ Hardware
-
+Lenovo M93P Tiny
 | Komponent | Wartość |
 |----------|--------|
 | CPU | i5-4570T |
